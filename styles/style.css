@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+  /*header section start */
 .header{
     background-image: url('../images/banner/banner2.png');
     height: 100vh;
+    padding-bottom: 40px;
     
   
 }
@@ -15,7 +16,7 @@
     height: 60px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left:60%;
-    padding-top: 200px;
+    padding-top: 150px;
  
     
 }
@@ -41,3 +42,77 @@
     margin: 10px;
 
 }
+ /*header section end */
+
+
+  /*main section start */
+ .main-section{
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-around;
+    align-items: center;
+
+    
+    /*  person design section*/
+ }
+ .person-about{
+    margin: 0 100px;
+
+
+
+ }
+ .person-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+ }
+ .person-description{
+    width: 350px;
+    padding:15px 0px;
+    color: rgb(81, 80, 77);
+   
+
+
+ }
+ ul li{
+    padding: 5px 15px  ;
+    list-style-image: url("/images/icons/tik.png");
+    color: rgb(81, 80, 77);
+  
+ }
+ /* logo design section*/
+ .person-skill-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+
+ }
+
+ .person-skills-section{
+    display: flex;
+    justify-content:space-evenly;
+  
+ }
+  
+ /*logo & title design part*/
+
+.primary-logo-align{
+ text-align: center;
+ padding: 20px 0;
+}
+
+.primary-title{        
+ padding-top: 20px;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.primary-subtitle{ 
+  color: rgb(81, 80, 77);
+  padding: 5px;
+}
+
+
+
